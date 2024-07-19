@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <nav>
+        <a href="http://127.0.0.1:5500/Personal_Portfolio.html">Home</a>
+        <a href="http://127.0.0.1:5500/about.html">About</a>
+        <a href="http://127.0.0.1:5500/resume.html">Resume</a>
+        <a href="http://127.0.0.1:5500/blog.html">Blog</a>
+        <a href="http://127.0.0.1:5500/portfolio.html">Portfolio</a>
+        <a href="http://127.0.0.1:5500/contact.html">Contact</a>    
+    </nav>
+
+    <hr>
+
+    <h2>Contact</h2>
+
+    <table>
+       
+        <tr>
+            <td>Phone:</td>
+            <td>828-345-0000</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>jes@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Link:</td>
+            <td><a href="https://www.linkedin.com/in/jesmarie-vargas-014a72190/" target="_blank">LinkedIn</a></td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h3>Please fill out form below if you cannot reach me via Contact Information.</h3>
+
+    <form action="submit">
+        <label>Name:<input type="text" name= "name" id="name"></input></label><br><br>
+        <label>Number:<input type="text" pattern= [0-9]{10} name= "phone" id="phone"></input></label><br></br>
+        <label>Email:<input type="email" name= "email" id="email"></input></label><br></br>
+        <label>Comments:<textarea name= "comments" id="comments" rows=4" cols="50"></textarea></label><br></br>
+        <input type="submit"></input>
+    </form>
+</body>
+</html>
